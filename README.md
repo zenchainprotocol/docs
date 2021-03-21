@@ -362,7 +362,7 @@ A core part of our vision is that open protocols like Ethereum and interoperable
 
 With the Rent market, NFTs owners don’t need to sell their NFTs, just using them for rent. The renter can rent NFT in a short time to use in some special situations. Example: With some games, users rent NFTs as wearable items to join some special campaign, after they can pay back NFTs with a small fee, they don’t need to buy NFT at a higher price.
 
-![\(ZenChain apps for NFTs\)](.gitbook/assets/image%20%286%29.png)
+![\(ZenChain apps for NFTs\)](.gitbook/assets/image%20%2817%29.png)
 
 ### NFTs X DEFI
 
@@ -374,7 +374,7 @@ The price of NFTs is determined by the Auction system. That means just users and
 
 ZenChain allows users to borrow up to 50% of the highest auction price.
 
-![\(Use case with using NFTs as collateral to borrow money\)](.gitbook/assets/image%20%285%29.png)
+![\(Use case with using NFTs as collateral to borrow money\)](.gitbook/assets/image%20%2818%29.png)
 
 #### Using Defi to mint NFT-Fi
 
@@ -386,7 +386,7 @@ Here is some NFT-Fi will be mint with ZenChain:
 * **Interest King:** if a user uses or holds these NFTs when using Defi, users can earn more LP fee in Dex \(normal is 0.03%\), or users can earn more lending interest, or reduce borrow interest. Each Interest King token has special traits: percent increase or decrease fee, time to use, period, scope of token …
 * **Lucky Pass:** if a user uses or holds these NFTs when using Defi, users can have change to mint more NFT-Fi token … To be fair, ZenChain has Random Number Generator power by Oracle module.
 * 
-![\(Overview NFT and Defi connecting\)](.gitbook/assets/image%20%288%29.png)
+![\(Overview NFT and Defi connecting\)](.gitbook/assets/image%20%2816%29.png)
 
 ## Benefits of ZenChain
 
