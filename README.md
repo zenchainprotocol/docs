@@ -1,5 +1,5 @@
 ---
-description: 2021.01.31| Version 02.02.10 | Esther Wong | ZenChain Foundation
+description: 2021.01.31| Version 02.02.10 | Josiah Tan | ZenChain Foundation
 ---
 
 # White Paper
