@@ -1,6 +1,6 @@
 # Table of contents
 
-* [White Paper](README.md)
+* [Lite Paper](README.md)
 * [Welcome](home.md)
 
 ## General

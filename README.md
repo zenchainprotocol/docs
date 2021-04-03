@@ -2,7 +2,7 @@
 description: 2021.01.31| Version 02.02.10 | Josiah Tan | ZenChain Foundation
 ---
 
-# White Paper
+# Lite Paper
 
 **Abstract:** The ZenChain Foundation is developing ZenChain, a blockchain specifically dedicated to decentralized financial \(DEFI\) applications and non-fungible tokens \(NFTs\). By focusing on the functionality of the blockchain and dedicating it specifically to DEFI and NFTs, ZenChain provides unparalleled high transaction throughput, reduced risk of errors, and intelligent feature development specifically for the fulfillment of financial services for both fungible token and non-fungible token \(NFT\) on the blockchain.
 
