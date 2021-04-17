@@ -46,13 +46,31 @@
 {% tab title="MockUp" %}
 ![](../.gitbook/assets/zenlogoleaf.png)
 
-![](../.gitbook/assets/zenlogoleaf-with-text.png)
+![](../.gitbook/assets/zen-mockups-1-%20%281%29.jpg)
 
-![](../.gitbook/assets/leather.png)
+![](../.gitbook/assets/zen-mockups-13-.jpg)
 
-![](../.gitbook/assets/wood.png)
+![](../.gitbook/assets/zen-mockups-12-.jpg)
+
+![](../.gitbook/assets/zen-mockups-11-.jpg)
+
+![](../.gitbook/assets/zen-mockups-10-.jpg)
+
+![](../.gitbook/assets/zen-mockups-9-.jpg)
+
+![](../.gitbook/assets/zen-mockups-8-.jpg)
+
+![](../.gitbook/assets/zen-mockups-7-.jpg)
+
+![](../.gitbook/assets/zen-mockups-6-.jpg)
+
+![](../.gitbook/assets/zen-mockups-5-.jpg)
+
+![](../.gitbook/assets/zen-mockups-4-.jpg)
+
+![](../.gitbook/assets/zen-mockups-2-.jpg)
+
+![](../.gitbook/assets/zen-mockups-3-.jpg)
 {% endtab %}
 {% endtabs %}
-
-
 
