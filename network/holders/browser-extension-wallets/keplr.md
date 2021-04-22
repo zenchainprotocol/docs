@@ -43,5 +43,7 @@ Email: keplr@chainapsis.com
 
 #### Privacy policy
 
-[https://wallet.keplr.app/privacy-policy.html](https://wallet.keplr.app/privacy-policy.html)
+{% embed url="https://wallet.keplr.app/privacy-policy.html" %}
+
+
 
