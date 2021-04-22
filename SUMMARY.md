@@ -23,6 +23,7 @@
 * [Delegators](network/delegators/README.md)
   * [Terms & Concepts](network/delegators/terms-and-concepts.md)
   * [Delegator commands](network/delegators/delegator-commands.md)
+  * [Delegator web interface](network/delegators/delegator-web-interface.md)
 * [Holders](network/holders/README.md)
   * [ZenChain daemon \(zenchaind\)](network/holders/zenchain-cli.md)
   * [Browser Extension Wallets](network/holders/browser-extension-wallets/README.md)

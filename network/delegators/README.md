@@ -4,6 +4,8 @@ description: All information for delegators become a part of ZenChain and earn r
 
 # Delegators
 
+
+
 {% page-ref page="terms-and-concepts.md" %}
 
 {% page-ref page="../validators/node-setup.md" %}

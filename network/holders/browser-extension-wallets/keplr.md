@@ -1,6 +1,10 @@
 # Keplr
 
+## Link to install
 
+[https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap?hl=en)
+
+## Overview
 
 Keplr is a browser extension wallet for the Inter blockchain ecosystem.  **The most powerful wallet for the Cosmos ecosystem** 
 
