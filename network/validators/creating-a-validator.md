@@ -9,6 +9,17 @@ In order to acquire ZEN you can:
 * 3\) Acquire ZEN via other decentralized exchanges
 * 4\) For testnet, please follow each campaign to request a test token. 
 
+### Requirements
+
+1. You need to have zenchaind application
+2. Start and sync successfully with network
+3. You have a wallet with enough balance
+4. You must know your validator wallet 
+
+   * `zenchaind tendermint show-validator`
+
+   \`\`
+
 ### Create validator
 
 Now that you have your node up and running and you have ZEN to stake with, you must now execute the following command:
