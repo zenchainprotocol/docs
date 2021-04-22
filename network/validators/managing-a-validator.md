@@ -1,2 +1,0 @@
-# Managing A Validator
-
