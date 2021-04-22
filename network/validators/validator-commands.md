@@ -5,7 +5,7 @@
 #### Query a validator by validator address <a id="query-a-validator-by-validator-address"></a>
 
 ```text
-zenchaind query staking validator <iva...>
+zenchaind query staking validator <zen...>
 ```
 
 ### Query staking validators <a id="iris-query-staking-validators"></a>
@@ -87,7 +87,7 @@ zenchaind query staking unbonding-delegation <zen...> <zen...>
 #### Query all unbonding delegations records of a delegator <a id="query-all-unbonding-delegations-records-of-a-delegator"></a>
 
 ```text
-zenchaind query staking unbonding-delegations <iaa...>
+zenchaind query staking unbonding-delegations <zen...>
 ```
 
 ### Query staking unbonding-delegations-from <a id="iris-query-staking-unbonding-delegations-from"></a>
@@ -95,7 +95,7 @@ zenchaind query staking unbonding-delegations <iaa...>
 #### Query all unbonding delegations from a validator <a id="query-all-unbonding-delegations-from-a-validator"></a>
 
 ```text
-zenchaind query staking unbonding-delegations-from <iva...>
+zenchaind query staking unbonding-delegations-from <zen...>
 ```
 
 ### Query staking redelegations-from <a id="iris-query-staking-redelegations-from"></a>
@@ -109,7 +109,7 @@ zenchaind query staking redelegations-from [validator-address] [flags]
 #### Query all outgoing redelegatations of a validator <a id="query-all-outgoing-redelegatations-of-a-validator"></a>
 
 ```text
-zenchaind query staking redelegations-from <iva...>
+zenchaind query staking redelegations-from <zen...>
 ```
 
 ### Query staking redelegation <a id="iris-query-staking-redelegation"></a>
@@ -123,7 +123,7 @@ zenchaind query staking redelegation [delegator-addr] [src-validator-addr] [dst-
 #### Query a redelegation record <a id="query-a-redelegation-record"></a>
 
 ```text
-zenchaind query staking redelegation <iaa...> <iva...> <iva...>
+zenchaind query staking redelegation <zen...> <zenva...> <zenva...>
 ```
 
 ### Query staking redelegations <a id="iris-query-staking-redelegations"></a>
@@ -131,7 +131,7 @@ zenchaind query staking redelegation <iaa...> <iva...> <iva...>
 #### Query all redelegations records of a delegator <a id="query-all-redelegations-records-of-a-delegator"></a>
 
 ```text
-zenchaind query staking redelegations <iaa...>
+zenchaind query staking redelegations <zen...>
 ```
 
 ### Query Staking pool <a id="iris-query-staking-pool"></a>
@@ -227,45 +227,5 @@ zenchaind tx staking edit-validator [flags]
 zenchaind tx staking edit-validator --from=<key-name> --chain-id=lotus-testnet --fees=30000uzen --commission-rate=0.10 --moniker=<validator-name>
 ```
 
-### Staking delegate <a id="iris-tx-staking-delegate"></a>
 
-Delegate tokens to a validator.
-
-```text
-zenchaind tx staking delegate [validator-addr] [amount] [flags]
-```
-
-```text
-zenchaind tx staking delegate <iva...> <amount> --chain-id=lotus-testnet --from=<key-name> --fees=30000uzen
-```
-
-### Staking unbond <a id="iris-tx-staking-unbond"></a>
-
-Unbond tokens from a validator.
-
-```text
-zenchaind tx staking unbond [validator-addr] [amount] [flags]
-```
-
-#### Unbond some tokens from a validator <a id="unbond-some-tokens-from-a-validator"></a>
-
-```text
-zenchaind tx staking unbond <zen...> 100000000uzen --from=<key-name> --chain-id=lotus-testnet 
-```
-
-### Staking redelegate <a id="iris-tx-staking-redelegate"></a>
-
-Transfer delegation from one validator to another.
-
-There is no `unbonding time` during the redelegation, so you will not miss the rewards. But you can only redelegate once per validator, until a period \(= `unbonding time`\) exceed.
-
-```text
-zenchaind tx staking redelegate [src-validator-addr] [dst-validator-addr] [amount] [flags]
-```
-
-#### Redelegate some tokens to another validator <a id="redelegate-some-tokens-to-another-validator"></a>
-
-```text
-zenchaind tx staking redelegate <zen...> <zen...> 1000000000uzen --chain-id=lotus-testnet --from=<key-name> 
-```
 

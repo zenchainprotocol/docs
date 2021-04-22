@@ -1,4 +1,6 @@
-# Delegators
+# Terms & Concepts
+
+
 
 For those wishing to participate in staking without running a validator, delegation is the best approach to still get involved and earn block rewards. ZenChain holders can delegate their tokens to existing validators using our staking explorer or ZenChaind. If the tokens are delegated to an elected validator, a portion of the block reward earned by the validator will be credited to the delegator.
 
@@ -19,9 +21,4 @@ When performing a delegation, we recommend you do due diligence on the following
    3. Maximum Commission Rate Change - This is the maximum daily increase possible. For example, if this is set to 5% then the most a node validator can change their rate by in a single 24 hour period is 5%.
 3. The top 100 node validator list and their staked/delegated amounts. It's important to do this because you want the node you are delegating to, to be a part of the network to ensure you are also earning rewards.
 4. We recommend that you continuously monitor your delegation and the node validators that you have delegated to.
-
-
-
-[  
-](https://docs.harmony.one/home/network/validators/definitions)
 

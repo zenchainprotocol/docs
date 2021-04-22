@@ -20,12 +20,13 @@
   * [Upload validators image](network/validators/upload-validators-image.md)
   * [Validator Security](network/validators/validator-security.md)
   * [Troubleshooting](network/validators/troubleshooting.md)
-* [Delegators](network/delegators.md)
+* [Delegators](network/delegators/README.md)
+  * [Terms & Concepts](network/delegators/terms-and-concepts.md)
+  * [Delegator commands](network/delegators/delegator-commands.md)
 * [Holders](network/holders/README.md)
   * [Browser Extension Wallets](network/holders/browser-extension-wallets/README.md)
     * [ZenWallets](network/holders/browser-extension-wallets/zenwallets.md)
-    * [Metamask](network/holders/browser-extension-wallets/metamask.md)
-  * [ZenChain Cli](network/holders/zenchain-cli.md)
+  * [ZenChain daemon \(zenchaind\)](network/holders/zenchain-cli.md)
 * [Governace](network/governace.md)
 
 ## DEVELOPERS
