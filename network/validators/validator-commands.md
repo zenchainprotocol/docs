@@ -1,7 +1,5 @@
 # Validator commands
 
-
-
 ### Query staking validator <a id="iris-query-staking-validator"></a>
 
 #### Query a validator by validator address <a id="query-a-validator-by-validator-address"></a>
