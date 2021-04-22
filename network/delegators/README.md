@@ -12,7 +12,7 @@ description: All information for delegators become a part of ZenChain and earn r
 
 {% page-ref page="delegator-commands.md" %}
 
-
+{% page-ref page="delegator-web-interface.md" %}
 
 
 
