@@ -138,9 +138,56 @@ git checkout v1.1.4
 make build
 ```
 
-If your environment variables have set up correctly, you should not get any errors by running the above commands. Now check your `zenchaind` version.
+If your environment variables have set up correctly, you should not get any errors by running the above commands
+
+Your **`zenchaind`** will build and save to **`zenchain/build/`** folder. 
+
+Add runable right for zenchaind   
+
+```text
+chmode 777 ./build/zenchaind
+```
+
+\(Optional step\) To run zenchaind we will copy zenchaind to /usr/local/bin folder to run zenchaind command
+
+```text
+cp -f ./build/zenchaind /usr/local/bin/
+```
+
+Now check your `zenchaind` version.
 
 ```text
 zenchaind version
+```
+
+### Init node and join testnet
+
+Step 1: You will  get zenchaind
+
+Step 2: Init node
+
+```text
+zenchaind init <your_moniker_name> --chain-id=lotus-testnet
+```
+
+This command will create .zenchain folder at **`~/.zenchain`** to store node data and config
+
+Step 3: Download genesis.json and replace file at **`~/.zenchain/config/genesis.json`**
+
+{% embed url="https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet/genesis.json" %}
+
+Step 4: Add persistent\_peers to config.toml file.   
+Open **`~/.zenchain/config/config.toml`**
+
+ Find line begin with **`persistent_peers`** and replace like this. 
+
+```text
+persistent_peers = "d087db1d451a9e1b52e5e20848c416e6be8d7f0a@45.63.22.19:26656"
+```
+
+Step 5: Run your node
+
+```text
+zenchaind start
 ```
 
