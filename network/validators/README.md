@@ -10,7 +10,9 @@ description: All information for validators become a part of ZenChain and earn r
 
 {% page-ref page="creating-a-validator.md" %}
 
-{% page-ref page="slashing-and-uptime.md" %}
+{% page-ref page="validator-commands.md" %}
+
+{% page-ref page="validator-security.md" %}
 
 {% page-ref page="troubleshooting.md" %}
 

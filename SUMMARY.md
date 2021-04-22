@@ -19,7 +19,6 @@
   * [Validator commands](network/validators/validator-commands.md)
   * [Upload validators image](network/validators/upload-validators-image.md)
   * [Validator Security](network/validators/validator-security.md)
-  * [Slashing and Uptime](network/validators/slashing-and-uptime.md)
   * [Troubleshooting](network/validators/troubleshooting.md)
 * [Delegators](network/delegators.md)
 * [Holders](network/holders/README.md)
