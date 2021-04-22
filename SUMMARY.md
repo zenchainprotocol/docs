@@ -24,9 +24,10 @@
   * [Terms & Concepts](network/delegators/terms-and-concepts.md)
   * [Delegator commands](network/delegators/delegator-commands.md)
 * [Holders](network/holders/README.md)
-  * [Browser Extension Wallets](network/holders/browser-extension-wallets/README.md)
-    * [ZenWallets](network/holders/browser-extension-wallets/zenwallets.md)
   * [ZenChain daemon \(zenchaind\)](network/holders/zenchain-cli.md)
+  * [Browser Extension Wallets](network/holders/browser-extension-wallets/README.md)
+    * [Keplr](network/holders/browser-extension-wallets/keplr.md)
+    * [ZenWallets](network/holders/browser-extension-wallets/zenwallets.md)
 * [Governace](network/governace.md)
 
 ## DEVELOPERS
