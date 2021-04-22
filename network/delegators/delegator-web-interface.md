@@ -12,5 +12,9 @@ After logging in, you can view network analytics, a list of validators, validato
 
 Every transaction or delegation must be signed. 
 
-**Harmony Browser Extension:** [https://docs.harmony.one/home/wallets/chrome-extension](https://docs.harmony.one/home/wallets/chrome-extension)
+Please check about Keplr wallet
+
+{% page-ref page="../holders/browser-extension-wallets/keplr.md" %}
+
+
 
