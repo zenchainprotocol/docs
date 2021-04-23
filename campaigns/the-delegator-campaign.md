@@ -40,9 +40,9 @@ Setup node and create or import your wallet following this [link](https://docs.z
 
 4. Go to ZenChain scan to check the validators list, select your validators. Then using **`zenchaind`** to delegate, and start earning.
 
-Please check this [link](https://docs.zenchain.co/network/delegators/delegator-commands) to using deleage command 
+Please check this [link](https://docs.zenchain.co/network/delegators/delegator-commands) to using delegator command 
 
-If you plan to set up a ZenChain node and join as a validator, please fill this [sign-up form](https://kridmofc1q8.typeform.com/to/xX6e0oiI) instead. \(The reward will be several times higher\)
+If you plan to set up a ZenChain node and join as a validator, please fill this [sign-up form](https://form.typeform.com/to/xX6e0oiI) instead. \(The reward will be several times higher\)
 
 ### **PRIZE**
 
