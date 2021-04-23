@@ -44,3 +44,8 @@
   * [Remix IDE](tools/remix-ide.md)
   * [ZenVue](tools/zenvue.md)
 
+## Campaigns
+
+* [The Validator Campaign](campaigns/the-validator-campaign.md)
+* [The Delegator Campaign](campaigns/the-delegator-campaign.md)
+
