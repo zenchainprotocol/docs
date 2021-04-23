@@ -40,7 +40,7 @@ Run command to get validator address:
 
 **`zenchaind tendermint show-validator`**
 
-2. Sign-up on [this form](https://kridmofc1q8.typeform.com/to/xX6e0oiI) with a Telegram username, a ZenChain address \(personal and validator\)
+2. Sign-up on [this form](https://form.typeform.com/to/xX6e0oiI) with a Telegram username, a ZenChain address \(personal and validator\)
 
 3. Receive your test ZEN tokens to start playing \(Each delegator account will receive 25,000 ZEN test tokens to start playing\). We will send test tokens before the campaign starts. 
 
@@ -69,7 +69,7 @@ The campaign may be subject to timeline extensions
 
 ### **Additional links**
 
-**Registry link:** [**https://kridmofc1q8.typeform.com/to/xX6e0oiI**](https://kridmofc1q8.typeform.com/to/xX6e0oiI)
+**Registry link:** [**https://form.typeform.com/to/xX6e0oiI**](https://form.typeform.com/to/xX6e0oiI)\*\*\*\*
 
 **Validators list:** [**https://scan.zenchain.network/validators**](https://scan.zenchain.network/validators)\*\*\*\*
 
