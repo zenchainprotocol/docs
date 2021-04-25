@@ -498,7 +498,7 @@ All funds in previous fundraisers were raised in stable coins and fiat currencie
 
 The use cases intended for ZEN include but are not limited to: protocol governance, exchange fee value capture, derivative collateralization, liquidity mining, and staking. Further details regarding each of these use cases can be found below.
 
-**Protocol Governance:** The ZEN token can be used to govern various components of Injective's side chain including the futures protocol, exchange parameters, and protocol upgrades via a DAO structure.
+**Protocol Governance:** The ZEN token can be used to govern various components of ZenChain including the futures protocol, exchange parameters, and protocol upgrades via a DAO structure.
 
 **Exchange Fee Value Capture:** After the relayer reward distribution, the exchange fee will undergo an on-chain buy-back-and-burn event to accrue value for ZEN.
 
