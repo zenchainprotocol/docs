@@ -50,7 +50,7 @@ Another big problem with DeFi projects is the scalability of the host blockchain
 * Transactions take a long time to be confirmed
 * The transaction is extremely expensive at times of congestion
 
-Ethereum at full capacity can process about 13 transactions per second, while centralized counterparts can process thousands and thousands of transactions. And Ethereum sing
+Ethereum at full capacity can process about 13 transactions per second, while centralized counterparts can process thousands and thousands of transactions. 
 
 **Smart Contract Problems**
 
