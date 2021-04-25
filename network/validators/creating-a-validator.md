@@ -48,6 +48,13 @@ Now that you have your node up and running and you have ZEN to stake with, you m
       * This is a reference to the signer of this transaction \(your validator address/moniker\).
     * **keyring-backend file**
       * This specifies the location of your node’s keyring.
+
+Example: 
+
+```text
+zenchaind tx staking create-validator --chain-id=lotus-testnet --from=elon --fees=13zen --pubkey=zenvalconspub1zcjduepqlzpa2azlylkdwd5tvu8flm0smp83eqj4r5g8th74qype303x5uvqhagu2w --commission-max-change-rate=0.1 --commission-max-rate=0.1 --commission-rate=0.1 --amount=25000000000uzen --min-self-delegation=1 --moniker=Teslaaa
+```
+
 * Next, you can verify that this was executed correctly by running this command:  `zenchaind query staking validator <validator-address> .` This will return information about your validator.
 
 After you have setup your node and successfully staked it with ZEN, you are now considered eligible to be a part of zenchain's validator set. 
