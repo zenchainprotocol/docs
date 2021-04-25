@@ -40,13 +40,13 @@ Run command to get validator address:
 
 **`zenchaind tendermint show-validator`**
 
-2. Sign-up on [this form](https://form.typeform.com/to/xX6e0oiI) with a Telegram username, a ZenChain address \(personal and validator\)
+3. Sign-up on [this form](https://form.typeform.com/to/xX6e0oiI) with a Telegram username, a ZenChain address \(personal and validator\)
 
-3. Receive your test ZEN tokens to start playing \(Each delegator account will receive 25,000 ZEN test tokens to start playing\). We will send test tokens before the campaign starts. 
+4. Receive your test ZEN tokens to start playing \(Each delegator account will receive 25,000 ZEN test tokens to start playing\). We will send test tokens before the campaign starts. 
 
-4. Make create validator transaction to ZenChain.
+5. Make create validator transaction to ZenChain.
 
-5. Share and get more delegated to become a validator and start earning. 
+6. Share and get more delegated to become a validator and start earning. 
 
 ### **PRIZE**
 
