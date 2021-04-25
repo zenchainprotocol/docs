@@ -44,7 +44,7 @@ Run command to get validator address:
 
 4. Receive your test ZEN tokens to start playing \(Each delegator account will receive 25,000 ZEN test tokens to start playing\). We will send test tokens before the campaign starts. 
 
-5. Make create validator transaction to ZenChain.
+5. Make create validator transaction to ZenChain.[ Read here](../network/validators/creating-a-validator.md)
 
 6. Share and get more delegated to become a validator and start earning. 
 
