@@ -227,5 +227,9 @@ zenchaind tx staking edit-validator [flags]
 zenchaind tx staking edit-validator --from=<key-name> --chain-id=lotus-testnet --fees=30000uzen --commission-rate=0.10 --moniker=<validator-name>
 ```
 
+#### Unjailed 
 
+```text
+zenchaind tx slashing unjail --from <wallet_name>
+```
 

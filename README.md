@@ -452,31 +452,27 @@ Launch of cross-chain yield generation.
 
 | **Token Name** | **ZEN** |
 | :--- | :--- |
-| Public sale | 25.00% of the total token supply |
-| Seed Sale | 6.00% of the total token supply |
-| Private Sale | 15.00% of the total token supply |
-| Team | 5.00% of the total token supply |
-| Advisors | 2.00% of the total token supply |
-| Ecosystem Development | 33.00% of the total token supply |
-| Community Growth | 10.00% of the total token supply |
+| Public IDO | 5% of the total token supply |
+| Early Contributors | 8% of the total token supply |
+| Strategic Partners | 20% of the total token supply |
+| Team | 5% of the total token supply |
+| Advisors | 2% of the total token supply |
+| Ecosystem Development | 33% of the total token supply |
+| Community Growth | 10% of the total token supply |
+| Liquidity and Staking | 17% of the total token supply |
 
-![Points scored](.gitbook/assets/26%20%281%29.png)
+![](https://lh6.googleusercontent.com/jIKqESaYoLPGD5j3Q3vZKmlVtiBztGY2aWw2cexSg_ArjhjRqdKGU7htTztlP7PD8JIiT4uOlKpflYi2es-7buH_8-iGyqtHoYboV81n9TzWFYAEZ8LlbogtbnL6IBXptjW0vx_i)
 
-### Token sales data
+### Token details
 
 | Token Name | ZEN |
 | :--- | :--- |
+| Token type | BEP20 |
+| Issuance price | $0.55 |
 | Total Token Supply | 100,000,000 ZEN |
-| Seed Sale Allocation | 6,000,000 ZEN |
-| Seed Sale Token Price | **Not disclosed yet**  |
-| Seed Sale Amount Raised | 500,000 USD |
-| Private Sale Allocation | 15,000,000 ZEN |
-| Private Sale Token Price | 0.025 USD / ZEN |
-| Private Sale Amount Raised | 375,000 USD |
-| Public Sale Allocation | 25,000,000 ZEN |
-| Public Sale Token Price | 0.1 USD / ZEN |
-| Public Sale Amount to be Raised | 2,500,000 USD |
-| Public Sale Date | **Not disclosed yet**  |
+| Initial circ supply | 2,500,000 ZEN |
+| Initial market cap | $1.250.000 |
+| Unsold/Unused token | Burn |
 
 ### Token governance and use of funds
 
@@ -492,7 +488,9 @@ All funds in previous fundraisers were raised in stable coins and fiat currencie
 
 ### ZEN token release schedule
 
-![Points scored](.gitbook/assets/27.png)
+
+
+![](https://lh6.googleusercontent.com/1RsPMfsypesmgTp6yRiEfyrTIBABAhH8A2_1bF3iIzlQLzshiX3A3x5q5u94Klj7Ri41H4mJmyCwqpq7V1na96Mfxvj7Ssuc9Pk0bdSQxv1lqM0QW4lKu7zhISG3DjtqyzZUKY-n)
 
 ### ZEN token overview and use-cases
 
