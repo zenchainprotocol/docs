@@ -1,10 +1,12 @@
 # Delegator web interface
 
+\[Work in proccess\] 
+
 Here is the Staking Explorer link:  [https://staking.zenchain.co](https://staking.zenchain.co)
 
 The Staking Explorer is an easy way to stake, delegate, send funds and view all information of ZenChain validators.
 
-You can explore the dashboard without using your ONE address, but the ONE address you use will be used for any transactions. 
+You can explore the dashboard without using your zen address, but the zen address you use will be used for any transactions. 
 
 You can login to an account using the Kelpr Chrome Extension
 
