@@ -8,7 +8,7 @@ description: All information for delegators become a part of ZenChain and earn r
 
 {% page-ref page="terms-and-concepts.md" %}
 
-{% page-ref page="../validators/node-setup.md" %}
+{% page-ref page="../holders/zenchain-cli/wallet-setup.md" %}
 
 {% page-ref page="delegator-commands.md" %}
 
