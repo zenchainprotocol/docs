@@ -18,7 +18,7 @@ The simplest way to interact with Zen blockchain is via JSON RPCs.
 #### Creating a wallet 
 
 * Using browser extensions. Any other [wallets](network/holders/browser-extension-wallets/) can also be used.
-* ZenChain [CLI](network/holders/zenchain-cli.md), also provides a quick way to create/manage wallet, interact with blockchain, etc.
+* ZenChain [CLI](network/holders/zenchain-cli/), also provides a quick way to create/manage wallet, interact with blockchain, etc.
 
 #### Multiple development environments: Mainnet, Testnet, Localnet
 

@@ -6,7 +6,7 @@
 
 ## Features <a id="features"></a>
 
-With the z`enchaind` you can create a wallet, check your balance, send signed transactions to the Zen blockchain, look up previous transactions, recover keys from previous mnemonics, create new keystores.
+With the `zenchaind` you can create a wallet, check your balance, send signed transactions to the Zen blockchain, look up previous transactions, recover keys from previous mnemonics, create new keystores.
 
 ## Supported Platforms <a id="platforms"></a>
 
@@ -17,4 +17,12 @@ With the z`enchaind` you can create a wallet, check your balance, send signed tr
 ## Release information
 
 We will always upload the latest production release on [github](https://github.com/zenchainprotocol/zenchain) and announce future uploads in pre-production releases.
+
+{% hint style="info" %}
+
+{% endhint %}
+
+
+
+
 

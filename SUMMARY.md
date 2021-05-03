@@ -14,7 +14,7 @@
 
 * [Validators](network/validators/README.md)
   * [Terms & Concepts](network/validators/terms-and-concepts.md)
-  * [Node Setup](network/validators/node-setup.md)
+  * [Full Node Setup](network/validators/node-setup.md)
   * [Add your wallet](network/validators/add-your-wallet.md)
   * [Start to Validators](network/validators/creating-a-validator.md)
   * [Validator commands](network/validators/validator-commands.md)
@@ -26,7 +26,8 @@
   * [Delegator commands](network/delegators/delegator-commands.md)
   * [Delegator web interface](network/delegators/delegator-web-interface.md)
 * [Holders](network/holders/README.md)
-  * [ZenChain daemon \(zenchaind\)](network/holders/zenchain-cli.md)
+  * [ZenChain daemon \(zenchaind\)](network/holders/zenchain-cli/README.md)
+    * [Wallet setup](network/holders/zenchain-cli/wallet-setup.md)
   * [Browser Extension Wallets](network/holders/browser-extension-wallets/README.md)
     * [Keplr](network/holders/browser-extension-wallets/keplr.md)
     * [ZenWallets](network/holders/browser-extension-wallets/zenwallets.md)

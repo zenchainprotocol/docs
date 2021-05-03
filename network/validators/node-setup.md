@@ -1,4 +1,4 @@
-# Node Setup
+# Full Node Setup
 
 ## Prerequisites <a id="9cbf"></a>
 
