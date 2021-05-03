@@ -129,3 +129,27 @@ zenchaind keys add <new key> --recover
 choice toilet hood soft program finish protect game enter orchard enjoy phone bone divert almost aspect cabbage cube mountain couple erupt short scrub own
 ```
 
+## Run command
+
+You have 2 options to interact with zenchain
+
+1. Run your fullnode and interact with zenchain by your full node
+
+{% page-ref page="../../validators/node-setup.md" %}
+
+2. Connect zenchaind to remote RPC at http://node1.zenchain.network:26657
+
+Each command just add **`--node tcp://node1.zenchain.network:26657`**
+
+Example 
+
+```text
+//Query block
+zenchaind q block --node tcp://node1.zenchain.network:26657
+```
+
+```text
+//Query balance
+zenchaind q bank balances <your zen address> --node tcp://node1.zenchain.network:26657
+```
+
