@@ -54,7 +54,7 @@ Run command to get validator address:
 
 ### **PRIZE**
 
-Participants will earn rewards by delegating during the 5 days and accumulate test ZEN tokens. The earned staking rewards during this period will be rewarded as main net ZEN tokens with ratios token earn per prize pool. 
+Participants will earn rewards by delegating during the 20 days and accumulate test ZEN tokens. The earned staking rewards during this period will be rewarded as main net ZEN tokens with ratios token earn per prize pool. 
 
 $$
 Your\ Ratio = \frac{Token\ earned}{

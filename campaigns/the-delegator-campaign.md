@@ -44,13 +44,13 @@ Setup node and create or import your wallet following this [link](https://docs.z
 
 4. Go to ZenChain scan to check the validators list, select your validators. Then using **`zenchaind`** to delegate, and start earning.
 
-Please check this [link](https://docs.zenchain.co/network/delegators/delegator-commands) to using delegator command 
+Please check this [link](https://docs.zenchain.co/network/delegators/delegator-commands) to using the delegator command 
 
 If you plan to set up a ZenChain node and join as a validator, please fill this [sign-up form](https://form.typeform.com/to/xX6e0oiI) instead. \(The reward will be several times higher\)
 
 ### **PRIZE**
 
-Participants will earn rewards by delegating during the 7-day period and accumulate test ZEN tokens. The earned staking rewards during this period will be rewarded as main net ZEN tokens with ratios token earn per prize pool. 
+Participants will earn rewards by delegating during the 20 day period and accumulate test ZEN tokens. The earned staking rewards during this period will be rewarded as main net ZEN tokens with ratios token earn per prize pool. 
 
 $$
 Your\ Ratio = \frac{Token\ earned}{
