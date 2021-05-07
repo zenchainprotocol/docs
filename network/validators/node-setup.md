@@ -75,7 +75,7 @@ If your system doesn't know tmux please install it.
 
 **Step 6:** Zenchain will ask your moniker's name. This is your node name. 
 
-**Step 7:** After that, your node will sync with network. 
+**Step 7:** After that, your node will sync with the network. If you want to become a validator you need to add your wallet \(this will store all your ZEN token\), and make create a validator transaction to the network.
 
 {% hint style="info" %}
 If you want to run zenchaind in background, you can detach this tmux session by command
