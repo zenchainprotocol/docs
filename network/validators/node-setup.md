@@ -75,7 +75,7 @@ If your system doesn't know tmux please install it.
 
 **Step 6:** Zenchain will ask your moniker's name. This is your node name. 
 
-**Step 7:** After that, your node will sync with the network. If you want to become a validator you need to add your wallet \(this will store all your ZEN token\), and make create a validator transaction to the network.
+**Step 7:** After that, your node will sync with the network. If you want to become a validator you need to [add your wallet](add-your-wallet.md) \(this will store all your ZEN token\), and make [create a validator transaction](creating-a-validator.md) to the network.
 
 {% hint style="info" %}
 If you want to run zenchaind in background, you can detach this tmux session by command
@@ -120,7 +120,7 @@ persistent_peers = "d087db1d451a9e1b52e5e20848c416e6be8d7f0a@45.63.22.19:26656"
 zenchaind start
 ```
 
-
+**Step 6:** After that, your node will sync with the network. If you want to become a validator you need to [add your wallet](add-your-wallet.md) \(this will store all your ZEN token\), and make [create a validator transaction](creating-a-validator.md) to the network.
 
 {% hint style="warning" %}
 If you want to run zenchaind in the background, **`you do not close this cmd window`**, to run another zenchaind command just open a new cmd window and run zenchaind command.
