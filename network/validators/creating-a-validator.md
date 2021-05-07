@@ -34,8 +34,8 @@ Now that you have your node up and running and you have ZEN to stake with, you m
       * This is the starting commission rate that your validator node will charge its delegators. This value IS editable after validator creation.
     * **amount &lt;amount&gt;** 
       * This is the amount of your starting self-delegation. This can be both unbonded and added to later. We accept uzen token \(this is smallest unit for ZEN token, 1000000uzen=1 zen\) 
-    * **pubkey $\(zenchaind tendermint show-validator\)** 
-      * This is the public validator key associated with your node.
+    * **pubkey** 
+      * This is the public validator key associated with your node. You can get your public validator key with command **`$(zenchaind tendermint show-validator)`** 
     * **moniker &lt;moniker&gt;**
       * This is the publicly viewable name of your node.
     * **chain-id &lt;chain-id&gt;**
