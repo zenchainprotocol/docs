@@ -10,18 +10,40 @@
 
 #### Overview <a id="download-the-genesis-file"></a>
 
-To reset Lotus-testnet, you just clear data of the old blockchain and replace genesis.json file, don't need to download zenchaind again. 
+To reset Lotus-testnet, you just clear data of the old blockchain and replace genesis.json file, don't need to download zenchaind again. Your wallet keys will not clear. You can still access it. 
+
+{% hint style="warning" %}
+You must install success fullnode and run it. If you did not install zenchaind application, please install it. 
+{% endhint %}
 
 ### Steps:
 
 #### Step1: Download the Genesis File <a id="download-the-genesis-file"></a>
 
-Download the New Lotus-testnet [genesis.json](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json) file to replace old genesis.json file in .zenchain config directory.
+Download the New Lotus-testnet [genesis.json](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json) file to replace the old genesis.json file in .zenchain config directory.
 
+
+
+{% tabs %}
+{% tab title="Linux & MacOS" %}
 ```text
 cd $HOME/.zenchain/config
 wget https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json
 ```
+{% endtab %}
+
+{% tab title="Window" %}
+Access [link ](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json)with browser and save it to your machine
+
+Replace genesis.json in folder located in **%UserProfile%/ .zenchain/config** 
+
+**`Notice:`**
+
+_`%UserProfile%`_ `will automatic redirect to current user root folder.` 
+
+**`Example:`** _`C:\Users\`**`<YourLoginNameWillHere>`**`\.zenchain`_
+{% endtab %}
+{% endtabs %}
 
 #### Step 2: Reset your node <a id="download-the-genesis-file"></a>
 
