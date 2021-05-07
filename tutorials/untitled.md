@@ -61,6 +61,13 @@ zenchaind unsafe-reset-all
 zenchaind start
 ```
 
+{% hint style="info" %}
+If you run this command before **Fri, 08 May 2021 00:00:00 GMT.**   
+Your node will waiting to this time before sync network.
+{% endhint %}
+
+![](../.gitbook/assets/image%20%2823%29.png)
+
 #### Step 4: Create validator transaction
 
 After you got sync with the new blockchain 
