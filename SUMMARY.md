@@ -52,5 +52,5 @@
 
 ## Tutorials
 
-* [Untitled](tutorials/untitled.md)
+* [Reset Lotus-testnet](tutorials/untitled.md)
 
