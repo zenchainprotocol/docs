@@ -72,6 +72,6 @@ Your node will waiting to this time before sync network.
 
 After you got sync with the new blockchain 
 
-1. Check your balance
-2. Make create validator transaction again.
+1. Check your balance.
+2. Make create validator transaction again. If you don't remember, please visit this [link](../network/validators/creating-a-validator.md)
 
