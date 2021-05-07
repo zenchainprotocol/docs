@@ -5,7 +5,7 @@
 {% hint style="info" %}
 **Fri, 08 May 2021 00:00:00 GMT**
 
-\*\*\*\*[**https://www.timeanddate.com/countdown/roadtrip?iso=20210507T12&p0=%3A&msg=Lotus-testnet+reset&font=cursive**](https://www.timeanddate.com/countdown/roadtrip?iso=20210508T00&p0=%3A&msg=Lotus-testnet+reset&font=cursive)\*\*\*\*
+**Check here** [**https://scan.zenchain.network/**](https://scan.zenchain.network/)\*\*\*\*
 {% endhint %}
 
 #### Overview <a id="download-the-genesis-file"></a>
@@ -32,6 +32,7 @@ Download the New Lotus-testnet [genesis.json](https://raw.githubusercontent.com/
 {% tab title="Linux & MacOS" %}
 ```text
 cd $HOME/.zenchain/config
+rm genesis.json
 wget https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json
 ```
 {% endtab %}
