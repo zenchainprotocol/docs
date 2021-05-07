@@ -18,11 +18,3 @@ With the `zenchaind` you can create a wallet, check your balance, send signed tr
 
 We will always upload the latest production release on [github](https://github.com/zenchainprotocol/zenchain) and announce future uploads in pre-production releases.
 
-{% hint style="info" %}
-
-{% endhint %}
-
-
-
-
-
