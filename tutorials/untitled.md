@@ -20,7 +20,7 @@ Download the New Lotus-testnet [genesis.json](https://raw.githubusercontent.com/
 
 ```text
 cd $HOME/.zenchain/config
-wget https://raw.githubusercontent.com/binance-chain/node-binary/master/fullnode/te
+wget https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json
 ```
 
 #### Step 2: Reset your node <a id="download-the-genesis-file"></a>
