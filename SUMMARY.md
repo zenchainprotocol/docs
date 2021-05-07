@@ -12,7 +12,7 @@
 
 ## Tutorials
 
-* [Reset Lotus-testnet](tutorials/untitled.md)
+* [Reset Lotus-testnet](tutorials/reset-lotus-testnet.md)
 
 ## Network
 
