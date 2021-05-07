@@ -120,6 +120,12 @@ persistent_peers = "d087db1d451a9e1b52e5e20848c416e6be8d7f0a@45.63.22.19:26656"
 zenchaind start
 ```
 
+
+
+{% hint style="warning" %}
+If you want to run zenchaind in the background, **`you do not close this cmd window`**, to run another zenchaind command just open a new cmd window and run zenchaind command.
+{% endhint %}
+
 ## **Option 2. Build from source \(More complicated - For advanced users\)**
 
 ### Install `go` <a id="install-go"></a>
