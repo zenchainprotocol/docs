@@ -63,7 +63,7 @@ zenchaind start
 
 {% hint style="info" %}
 If you run this command before **Fri, 08 May 2021 00:00:00 GMT.**   
-Your node will waiting to this time before sync network.
+Your node will wait until **Fri, 08 May 2021 00:00:00 GMT** to sync the network.
 {% endhint %}
 
 ![](../.gitbook/assets/image%20%2823%29.png)
