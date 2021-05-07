@@ -51,9 +51,9 @@ chmod 777 ./SetupNode.sh
 
 Step 3: Make sure you have `unzip` app installed
 
-Step 4: If you want to run zenchaind in background. Your system need to install **`tmux`**. 
+Step 4: If you want to run zenchaind in background. Your system needs to install **`tmux`**. 
 
-Start new session with tmux, just type command tmux. 
+Start a new session with tmux, just type command tmux. 
 
 ```text
 tmux
@@ -63,7 +63,7 @@ Terminal will begin green in the bottom, this is tmux opened.
 
 ![\(Tmux open success with green at the bottom\)](../../.gitbook/assets/image%20%2821%29.png)
 
-If your system don't know tmux please install it. 
+If your system doesn't know tmux please install it. 
 
 [https://linuxize.com/post/getting-started-with-tmux/](https://linuxize.com/post/getting-started-with-tmux/)
 
@@ -73,12 +73,12 @@ If your system don't know tmux please install it.
 ./SetupNode.sh
 ```
 
-**Step 6:** Zenchain will ask your moniker name. This is your node name. 
+**Step 6:** Zenchain will ask your moniker's name. This is your node name. 
 
 **Step 7:** After that, your node will sync with network. 
 
 {% hint style="info" %}
-If you want to run zenchaind in background, you can detached this tmux session by command
+If you want to run zenchaind in background, you can detach this tmux session by command
 
 Press **`<ctr+b>`** then press **`d`** 
 
@@ -103,7 +103,7 @@ This command will create .zenchain folder at **`%UserProfile%/.zenchain`** to st
 
 **Step 3:** Download genesis.json and replace file at **`%UserProfile%/.zenchain/config/genesis.json`**
 
-{% embed url="https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet/genesis.json" %}
+Link to download genesis.json: [**https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json**](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json)\*\*\*\*
 
 **Step 4:** Add persistent\_peers to config.toml file.   
 Open **`%UserProfile%/.zenchain/config/config.toml`**
@@ -191,9 +191,9 @@ zenchaind version
 
 ### Init node and join testnet
 
-Step 1: You will  get zenchaind
+**Step 1:** You will  get zenchaind
 
-Step 2: Init node
+**Step 2:** Init node
 
 ```text
 zenchaind init <your_moniker_name> --chain-id=lotus-testnet
@@ -201,11 +201,11 @@ zenchaind init <your_moniker_name> --chain-id=lotus-testnet
 
 This command will create .zenchain folder at **`~/.zenchain`** to store node data and config
 
-Step 3: Download genesis.json and replace file at **`~/.zenchain/config/genesis.json`**
+**Step 3:** Download genesis.json and replace file at **`~/.zenchain/config/genesis.json`**
 
-{% embed url="https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet/genesis.json" %}
+\*\*\*\*[**https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json**](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json)\*\*\*\*
 
-Step 4: Add persistent\_peers to config.toml file.   
+**Step 4:** Add persistent\_peers to config.toml file.   
 Open **`~/.zenchain/config/config.toml`**
 
  Find line begin with **`persistent_peers`** and replace like this. 
@@ -214,7 +214,7 @@ Open **`~/.zenchain/config/config.toml`**
 persistent_peers = "d087db1d451a9e1b52e5e20848c416e6be8d7f0a@45.63.22.19:26656"
 ```
 
-Step 5: Run your node
+**Step 5:** Run your node
 
 ```text
 zenchaind start
