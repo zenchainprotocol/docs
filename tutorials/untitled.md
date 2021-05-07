@@ -40,5 +40,5 @@ zenchaind start
 After you got sync with the new blockchain 
 
 1. Check your balance
-2. Make create validator again.
+2. Make create validator transaction again.
 
