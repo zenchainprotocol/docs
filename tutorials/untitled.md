@@ -13,8 +13,12 @@
 To reset Lotus-testnet, you just clear data of the old blockchain and replace genesis.json file, don't need to download zenchaind again. Your wallet keys will not clear. You can still access it. 
 
 {% hint style="warning" %}
-You must install success fullnode and run it. If you did not install zenchaind application, please install it. 
+You must install success fullnode and run it. If you did not install zenchaind application, please install it. Please check this link to install your full node
+
+[https://docs.zenchain.co/network/validators/node-setup](https://docs.zenchain.co/network/validators/node-setup)
 {% endhint %}
+
+
 
 ### Steps:
 
