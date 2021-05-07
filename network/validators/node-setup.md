@@ -25,7 +25,7 @@ You have 2 options to setup
 
 
 
-## 1. Start node from prebuild node application
+## Options 1. Start node from prebuild node application
 
 We will follow these steps
 
@@ -51,31 +51,61 @@ chmod 777 ./SetupNode.sh
 
 Step 3: Make sure you have `unzip` app installed
 
-Step 4: Run SetupNode.sh to download **`zenchaind`**, genesis file and persistent peers information. 
+Step 4: If you want to run zenchaind in background. Your system need to install **`tmux`**. 
+
+Start new session with tmux, just type command tmux. 
+
+```text
+tmux
+```
+
+Terminal will begin green in the bottom, this is tmux opened. 
+
+![\(Tmux open success with green at the bottom\)](../../.gitbook/assets/image%20%2821%29.png)
+
+If your system don't know tmux please install it. 
+
+[https://linuxize.com/post/getting-started-with-tmux/](https://linuxize.com/post/getting-started-with-tmux/)
+
+**Step 5:** Run SetupNode.sh to download **`zenchaind`**, genesis file and persistent peers information. 
 
 ```text
 ./SetupNode.sh
 ```
 
+**Step 6:** Zenchain will ask your moniker name. This is your node name. 
+
+**Step 7:** After that, your node will sync with network. 
+
+{% hint style="info" %}
+If you want to run zenchaind in background, you can detached this tmux session by command
+
+Press **`<ctr+b>`** then press **`d`** 
+
+**More information here:** [**https://superuser.com/questions/249659/how-to-detach-a-tmux-session-that-itself-already-in-a-tmux**](https://superuser.com/questions/249659/how-to-detach-a-tmux-session-that-itself-already-in-a-tmux)\*\*\*\*
+{% endhint %}
+
 ### 1.2 With Window amd64bit
 
-Step 1: Download prebuild zenchaind at link [https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/build/v1.1.4/build-windows-amd64.zip](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/build/v1.1.4/build-windows-amd64.zip)
+**Step 1:** Download prebuild zenchaind at link [https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/build/v1.1.4/build-windows-amd64.zip](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/build/v1.1.4/build-windows-amd64.zip)
 
 Exact zip file, we will get **`zenchaind.exe`** binary 
 
-Step 2: Open cmd at zenchaind.exe location and init node
+**Step 2:** Open cmd at zenchaind.exe location and init node
 
 ```text
 zenchaind init <your_moniker_name> --chain-id=lotus-testnet
 ```
 
+* **Notice: Replace &lt; your\_** _**moniker\_**_ **name&gt; with any name you want. This is your node name.** 
+
 This command will create .zenchain folder at **`%UserProfile%/.zenchain`** to store node data and config
 
-Step 3: Download genesis.json and replace file at **`%UserProfile%/.zenchain/config/genesis.json`**
+**Step 3:** Download genesis.json and replace file at **`%UserProfile%/.zenchain/config/genesis.json`**
 
 {% embed url="https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet/genesis.json" %}
 
-Step 4: Add persistent\_peers to config.toml file.   
+**Step 4:** Add persistent\_peers to config.toml file.   
 Open **`%UserProfile%/.zenchain/config/config.toml`**
 
  Find line begin with **`persistent_peers`** and replace like this. 
@@ -84,13 +114,13 @@ Open **`%UserProfile%/.zenchain/config/config.toml`**
 persistent_peers = "d087db1d451a9e1b52e5e20848c416e6be8d7f0a@45.63.22.19:26656"
 ```
 
-Step 5: Run your node
+**Step 5:** Run your node
 
 ```text
 zenchaind start
 ```
 
-## **2. Build from source \(More complicated - For advanced users\)**
+## **Option 2. Build from source \(More complicated - For advanced users\)**
 
 ### Install `go` <a id="install-go"></a>
 
