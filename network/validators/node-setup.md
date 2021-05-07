@@ -14,7 +14,18 @@
       * A fully pruning node \(pruning = "everything" \) grows at a rate of ~10 GB per month
       * A default pruning node \(\`pruning = “default”\) grows at a rate of ~20 GB per month
 
-## 1. Easy to start with prebuild node application
+## 
+
+{% hint style="info" %}
+You have 2 options to setup
+
+1. Start node from prebuild node application
+2. Build from source code
+{% endhint %}
+
+
+
+## 1. Start node from prebuild node application
 
 We will follow these steps
 
@@ -25,24 +36,6 @@ We will follow these steps
 5. Run node
 
 ## 1.1 With Linux amd 64bit
-
-#### Ubuntu 
-
-We build easy bash script to do these tasks. 
-
-```bash
-wget -O - https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet/SetupNode.sh | bash <(cat) </dev/ttyT
-```
-
-Step 1: Download **`zenchaind`** and download genesis file and persistent\_peers  
-
-Step 2: Will ask your moniker name, if you are a validator this is your validator name, if you just want to run node give any string.  
-
-{% hint style="info" %}
-This command will launch zenchain node and begin sync with the network
-{% endhint %}
-
-#### Another Linux Distro 
 
 Step 1: Download SetupNode.sh
 
@@ -64,7 +57,7 @@ Step 4: Run SetupNode.sh to download **`zenchaind`**, genesis file and persisten
 ./SetupNode.sh
 ```
 
-### With Window amd64bit
+### 1.2 With Window amd64bit
 
 Step 1: Download prebuild zenchaind at link [https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/build/v1.1.4/build-windows-amd64.zip](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/build/v1.1.4/build-windows-amd64.zip)
 
@@ -97,7 +90,7 @@ Step 5: Run your node
 zenchaind start
 ```
 
-## **2. Build from source**
+## **2. Build from source \(More complicated - For advanced users\)**
 
 ### Install `go` <a id="install-go"></a>
 
