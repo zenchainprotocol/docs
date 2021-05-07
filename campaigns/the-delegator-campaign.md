@@ -18,7 +18,9 @@ Contest Testnet
 
 #### **DATE**
 
-1 May 2021 06:00\(UTC+3\) - 8 May 2021 06:00\(UTC+3\)
+~~_1 May 2021 06:00\(UTC+3\) - 8 May 2021 06:00\(UTC+3\)_~~ 
+
+**Relaunch:** 07 May 2021 06:00\(UTC+3\) - 27May 2021 06:00\(UTC+3\)
 
 #### **REGISTRATION**
 
