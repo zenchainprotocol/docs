@@ -10,6 +10,10 @@
 * [Show cases](general/show-cases.md)
 * [Media kit](general/media-kit.md)
 
+## Tutorials
+
+* [Reset Lotus-testnet](tutorials/untitled.md)
+
 ## Network
 
 * [Validators](network/validators/README.md)
@@ -49,8 +53,4 @@
 
 * [The Validator Campaign](campaigns/the-validator-campaign.md)
 * [The Delegator Campaign](campaigns/the-delegator-campaign.md)
-
-## Tutorials
-
-* [Reset Lotus-testnet](tutorials/untitled.md)
 
