@@ -2,19 +2,19 @@
 
 The keyring holds the private/public keypairs used to interact with a node. For instance, a validator key needs to be set up before running the blockchain node, so that blocks can be correctly signed. The private key can be stored in different locations, called "backends", such as a file or the operating system's own key storage.
 
-### Create or import wallet
+### Create or import a wallet
 
-Assume you setup successful **`zenchaind`** application
+Assume you se tup successful **`zenchaind`** application
 
-To add new key using following command
+To add a new key using the following command
 
 ```text
 zenchaind keys add <name-your-wallet> 
 ```
 
-This command will generate your wallet and your mnemoic words, keep this 
+This command will generate your wallet and your mnemonic words, keep this 
 
-Incase you have mnemonic backup, you can recove sing command
+In case you have a mnemonic backup, you can recover sing command
 
 ```text
 zenchaind keys add <name-your-wallet> --recover
