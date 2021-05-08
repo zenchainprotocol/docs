@@ -467,12 +467,12 @@ Launch of cross-chain yield generation.
 
 | Token Name | ZEN |
 | :--- | :--- |
-| Token type | BEP20 |
-| Issuance price | $0.55 |
+| Token type | BEP20 & ERC20 |
+| Issuance price | TBA |
 | Total Token Supply | 100,000,000 ZEN |
 | Initial circ supply | 2,500,000 ZEN |
 | Initial market cap | $1.250.000 |
-| Unsold/Unused token | Burn |
+| Unsold/Unused token | TBA |
 
 ### Token governance and use of funds
 
