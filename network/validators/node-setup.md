@@ -174,7 +174,7 @@ Your **`zenchaind`** will build and save to **`zenchain/build/`** folder.
 Add runable right for zenchaind   
 
 ```text
-chmode 777 ./build/zenchaind
+chmod 777 ./build/zenchaind
 ```
 
 \(Optional step\) To run zenchaind we will copy zenchaind to /usr/local/bin folder to run zenchaind command
