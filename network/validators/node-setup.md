@@ -40,7 +40,7 @@ We will follow these steps
 Step 1: Download SetupNode.sh
 
 ```bash
-wget https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet/SetupNode.sh
+wget https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/SetupNode.sh
 ```
 
 Step 2: Allow run SetupNode.sh
