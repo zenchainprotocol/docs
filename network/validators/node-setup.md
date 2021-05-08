@@ -59,7 +59,7 @@ Start a new session with tmux, just type command tmux.
 tmux
 ```
 
-Terminal will begin green in the bottom, this is tmux opened. 
+The terminal will begin green in the bottom, this is tmux opened. 
 
 ![\(Tmux open success with green at the bottom\)](../../.gitbook/assets/image%20%2821%29.png)
 
