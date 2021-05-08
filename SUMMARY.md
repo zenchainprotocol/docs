@@ -9,6 +9,7 @@
 * [Technology](general/technology.md)
 * [Show cases](general/show-cases.md)
 * [Media kit](general/media-kit.md)
+* [Investor Pitch Deck](general/investor-pitch-deck.md)
 
 ## Tutorials
 
