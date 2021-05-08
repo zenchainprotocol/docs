@@ -24,7 +24,7 @@ You must install success fullnode and run it. If you did not install zenchaind a
 
 #### Step1: Download the Genesis File <a id="download-the-genesis-file"></a>
 
-Download the New Lotus-testnet [genesis.json](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json) file to replace the old genesis.json file in .zenchain config directory.
+Download the New Lotus-testnet [genesis.json](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json) file to replace the old genesis.json file in `.zenchain` config directory.
 
 
 
