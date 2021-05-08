@@ -20,7 +20,7 @@
   * [Terms & Concepts](network/validators/terms-and-concepts.md)
   * [Full Node Setup](network/validators/node-setup.md)
   * [Add your wallet](network/validators/add-your-wallet.md)
-  * [Start to Validators](network/validators/creating-a-validator.md)
+  * [Creating Validators](network/validators/creating-a-validator.md)
   * [Validator commands](network/validators/validator-commands.md)
   * [Upload validators image](network/validators/upload-validators-image.md)
   * [Validator Security](network/validators/validator-security.md)

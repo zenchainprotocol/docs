@@ -1,4 +1,4 @@
-# Start to Validators
+# Creating Validators
 
 ### Acquiring ZEN to bond:
 
