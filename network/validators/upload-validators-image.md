@@ -57,13 +57,17 @@ Step 1: Install keybase desktop application [https://keybase.io/download](https:
 
 ![](../../.gitbook/assets/keybase-3.gif)
 
-**Step 3: Generate code.** 
+**Step 3: Upload your image**
+
+![](../../.gitbook/assets/keybase-4.gif)
+
+**Step 4: Generate code.** 
 
 After creating new account. Access profile and **Add PGP keys,** and you will get 16 chars code. 
 
 ![](../../.gitbook/assets/keybase-2.gif)
 
-**Step 4: Update validator information on-chain**
+**Step 5: Update validator information on-chain**
 
  After you got 16 char key run this command:
 
