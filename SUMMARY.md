@@ -25,7 +25,7 @@
   * [Validator commands](network/validators/validator-commands.md)
   * [Upload validators image, website](network/validators/upload-validators-image.md)
   * [Validator Security](network/validators/validator-security.md)
-  * [Troubleshooting](network/validators/troubleshooting.md)
+  * [FAQs](network/validators/faqs.md)
 * [Delegators](network/delegators/README.md)
   * [Terms & Concepts](network/delegators/terms-and-concepts.md)
   * [Delegator commands](network/delegators/delegator-commands.md)

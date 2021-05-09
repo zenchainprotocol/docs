@@ -9,7 +9,7 @@ zenchaind tx staking delegate [validator-addr] [amount] [flags]
 ```
 
 ```text
-zenchaind tx staking delegate <zen...> <amount> --chain-id=lotus-testnet --from=<key-name> --fees=30000uzen
+zenchaind tx staking delegate <zen...> <amount> --chain-id=lotus-testnet --from=<key-name> 
 ```
 
 ### Staking unbond <a id="iris-tx-staking-unbond"></a>
