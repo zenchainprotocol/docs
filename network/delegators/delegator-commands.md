@@ -2,7 +2,10 @@
 
 ### Staking delegate <a id="iris-tx-staking-delegate"></a>
 
-Delegate tokens to a validator.
+Delegate tokens to a validator.  
+Validator-addr is address of the validator start with **`zenvaloper.`** You can find it on [https://scan.zenchain.network/validators](https://scan.zenchain.network/validators)
+
+![](../../.gitbook/assets/image%20%2831%29.png)
 
 ```text
 zenchaind tx staking delegate [validator-addr] [amount] [flags]

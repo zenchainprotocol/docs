@@ -51,7 +51,7 @@ Step 1: Install keybase desktop application [https://keybase.io/download](https:
 
 ![](../../.gitbook/assets/image%20%2830%29.png)
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 **Step 2: Create an account**
 
