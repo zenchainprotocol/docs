@@ -168,7 +168,7 @@ zenchaind query staking params
 zenchaind query staking historical-info <height>
 ```
 
-### Create-validator <a id="iris-tx-staking-create-validator"></a>
+### Create-validator <a id="tx-staking-create-validator"></a>
 
 Send a transaction to apply to be a validator and delegate a certain amount of zen to it.
 
