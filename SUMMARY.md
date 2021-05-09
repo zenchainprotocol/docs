@@ -23,7 +23,7 @@
   * [Add your wallet](network/validators/add-your-wallet.md)
   * [Creating Validators](network/validators/creating-a-validator.md)
   * [Validator commands](network/validators/validator-commands.md)
-  * [Upload validators image](network/validators/upload-validators-image.md)
+  * [Upload validators image, website](network/validators/upload-validators-image.md)
   * [Validator Security](network/validators/validator-security.md)
   * [Troubleshooting](network/validators/troubleshooting.md)
 * [Delegators](network/delegators/README.md)
