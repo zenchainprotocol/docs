@@ -5,13 +5,13 @@ Disclaimer
 
 This is work in progress. Mechanisms and values are susceptible to change.
 
-**General Concepts**
+## **General Concepts**
 
-**What is a validator?**
+### **What is a validator?**
 
 The ZenChain is based on [Tendermint \(opens new window\)](https://tendermint.com/docs/introduction/what-is-tendermint.html), which relies on a set of validators to secure the network. The role of validators is to run a full-node and participate in consensus by broadcasting votes which contain cryptographic signatures signed by their private key. Validators commit new blocks in the blockchain and receive revenue in exchange for their work. They must also participate in governance by voting on proposals. Validators are weighted according to their total stake.
 
-**What is 'staking'?**
+### **What is 'staking'?**
 
 The ZenChain is a public Proof-Of-Stake \(PoS\) blockchain, meaning that the weight of validators is determined by the amount of staking tokens \(ZEN\) bonded as collateral. These ZEN can be self-delegated directly by the validator or delegated to them by other Zen holders.
 
@@ -19,13 +19,13 @@ Any user in the system can declare their intention to become a validator by send
 
 The weight \(i.e. voting power\) of a validator determines whether or not they are an active validator. Initially, only the top 125 validators with the most voting power will be active validators.
 
-**What is a full-node?**
+### **What is a full-node?**
 
 A full-node is a program that fully validates transactions and blocks of a blockchain. It is distinct from a light-node that only processes block headers and a small subset of transactions. Running a full-node requires more resources than a light-node but is necessary in order to be a validator. In practice, running a full-node only implies running a non-compromised and up-to-date version of the software with low network latency and without downtime.
 
 Of course, it is possible and encouraged for users to run full-nodes even if they do not plan to be validators.
 
-**What is a delegator?**
+### **What is a delegator?**
 
 Delegators are Zen holders who cannot, or do not want to run a validator themselves. Zen holders can delegate ZEN to a validator and obtain a part of their revenue in exchange
 
@@ -33,9 +33,9 @@ Because they share revenue with their validators, delegators also share risks. S
 
 Delegators play a critical role in the system, as they are responsible for choosing validators. Being a delegator is not a passive role: Delegators should actively monitor the actions of their validators and participate in governance.
 
-**Becoming a Validator**
+## **Becoming a Validator**
 
-**How to become a validator?**
+### **How to become a validator?**
 
 Any participant in the network can signal that they want to become a validator by sending a create-validator transaction, where they must fill out the following parameters:
 
@@ -61,7 +61,7 @@ Once a validator is created, Zen holders can delegate ZEN to them, effectively a
 
 Out of all validator candidates that signaled themselves, the 125 with the most total stake are the ones who are designated as validators. They become **validators** If a validator's total stake falls below the top 125 then that validator loses their validator privileges: they don't participate in consensus and generate rewards any more. Over time, the maximum number of validators may be increased via on-chain governance proposal.
 
-**What are the different types of keys?**
+### **What are the different types of keys?**
 
 In short, there are two types of keys:
 
@@ -75,25 +75,25 @@ o    It is generated when the node is created with zenchaind init.
 
 Note: A validator's operator key is directly tied to an application key, but uses reserved prefixes solely for this purpose: zenvaloper and zenvaloperpub
 
-**What are the different states a validator can be in?**
+### **What are the different states a validator can be in?**
 
 After a validator is created with a create-validator transaction, they can be in three states:
 
 ·         in validator set: Validator is in the active set and participates in consensus. Validator is earning rewards and can be slashed for misbehaviour.
 
-·         jailed: Validator misbehaved and is in jail, i.e. outisde of the validator set. If the jailing is due to being offline for too long, the validator can send an unjail transaction in order to re-enter the validator set. If the jailing is due to double signing, the validator cannot unjail.
+·         jailed: Validator misbehaved and is in jail, i.e. outiside of the validator set. If the jailing is due to being offline for too long, the validator can send an unjail transaction in order to re-enter the validator set. If the jailing is due to double signing, the validator cannot unjail.
 
 ·         unbonded: Validator is not in the active set, and therefore not signing blocs. Validator cannot be slashed, and does not earn any reward. It is still possible to delegate ZEN to this validator. Un-delegating from an unbonded validator is immediate.
 
-**What is 'self-delegation'? How can I increase my 'self-delegation'?**
+### **What is 'self-delegation'? How can I increase my 'self-delegation'?**
 
 Self-delegation is delegation from a validator to themselves. This amount can be increases by sending a delegate transaction from your validator's application application key.
 
-**Is there a minimum amount of ZEN that must be delegated to be an active \(=bonded\) validator?**
+### **Is there a minimum amount of ZEN that must be delegated to be an active \(=bonded\) validator?**
 
 The minimum is 1 Zen.
 
-**How will delegators choose their validators?**
+### **How will delegators choose their validators?**
 
 Delegators are free to choose validators according to their own subjective criteria. This said, criteria anticipated to be important include:
 
@@ -107,13 +107,13 @@ Delegators are free to choose validators according to their own subjective crite
 
 Apart from these criteria, there will be a possibility for validators to signal a website address to complete their resume. Validators will need to build reputation one way or another to attract delegators. For example, it would be a good practice for validators to have their setup audited by third parties. Note though, that the Tendermint team will not approve or conduct any audit themselves.
 
-**Responsibilities**
+## **Responsibilities**
 
-**Do validators need to be publicly identified?**
+### **Do validators need to be publicly identified?**
 
 No, they do not. Each delegator will value validators based on their own criteria. Validators will be able to register a website address when they nominate themselves so that they can advertise their operation as they see fit. Some delegators may prefer a website that clearly displays the team operating the validator and their resume, while others might prefer anonymous validators with positive track records.
 
-**What are the responsibilities of a validator?**
+### **What are the responsibilities of a validator?**
 
 Validators have two main responsibilities:
 
@@ -123,35 +123,35 @@ Validators have two main responsibilities:
 
 Additionally, validators are expected to be active members of the community. They should always be up-to-date with the current state of the ecosystem so that they can easily adapt to any change.
 
-**What does 'participate in governance' entail?**
+### **What does 'participate in governance' entail?**
 
 Validators and delegators on the ZenChain can vote on proposals to change operational parameters \(such as the block gas limit\), coordinate upgrades, or make a decision on any given matter.
 
 Validators play a special role in the governance system. Being the pillars of the system, they are required to vote on every proposal. It is especially important since delegators who do not vote will inherit the vote of their validator.
 
-**What does staking imply?**
+### **What does staking imply?**
 
 Staking ZEN can be thought of as a safety deposit on validation activities. When a validator or a delegator wants to retrieve part or all of their deposit, they send an unbonding transaction. Then, ZEN undergo a **3 weeks unbonding period** during which they are liable to being slashed for potential misbehaviors committed by the validator before the unbonding process started.
 
 Validators, and by association delegators, receive block rewards, fees, and have the right to participate in governance. If a validator misbehaves, a certain portion of their total stake is slashed. This means that every delegator that bonded ZEN to this validator gets penalized in proportion to their bonded stake. Delegators are therefore incentivized to delegate to validators that they anticipate will function safely.
 
-**Can a validator run away with their delegators' ZEN?**
+### **Can a validator run away with their delegators' ZEN?**
 
 By delegating to a validator, a user delegates voting power. The more voting power a validator have, the more weight they have in the consensus and governance processes. This does not mean that the validator has custody of their delegators' ZEN. **By no means can a validator run away with its delegator's funds**.
 
 Even though delegated funds cannot be stolen by their validators, delegators are still liable if their validators misbehave.
 
-**How often will a validator be chosen to propose the next block? Does it go up with the quantity of bonded ZEN?**
+### **How often will a validator be chosen to propose the next block? Does it go up with the quantity of bonded ZEN?**
 
 The validator that is selected to propose the next block is called proposer. Each proposer is selected deterministically, and the frequency of being chosen is proportional to the voting power \(i.e. amount of bonded ZEN\) of the validator. For example, if the total bonded stake across all validators is 100 ZEN and a validator's total stake is 10 ZEN, then this validator will proposer ~10% of the blocks.
 
-**Will validators of the ZenChain ever be required to validate other zones in the Zen ecosystem?**
+### **Will validators of the ZenChain ever be required to validate other zones in the Zen ecosystem?**
 
 Yes, they will. If governance decides so, validators of the ZenChain may be required to validate additional zones in the Zen ecosystem.
 
-**Incentives**
+## **Incentives**
 
-**What is the incentive to stake?**
+### **What is the incentive to stake?**
 
 Each member of a validator's staking pool earns different types of revenue:
 
@@ -161,17 +161,17 @@ Each member of a validator's staking pool earns different types of revenue:
 
 This total revenue is divided among validators' staking pools according to each validator's weight. Then, within each validator's staking pool the revenue is divided among delegators in proportion to each delegator's stake. A commission on delegators' revenue is applied by the validator before it is distributed.
 
-**What is the incentive to run a validator ?**
+### **What is the incentive to run a validator ?**
 
 Validators earn proportionally more revenue than their delegators because of commissions.
 
 Validators also play a major role in governance. If a delegator does not vote, they inherit the vote from their validator. This gives validators a major responsibility in the ecosystem.
 
-**What are validators commission?**
+### **What are validators commission?**
 
 Revenue received by a validator's pool is split between the validator and their delegators. The validator can apply a commission on the part of the revenue that goes to their delegators. This commission is set as a percentage. Each validator is free to set their initial commission, maximum daily commission change rate and maximum commission. The ZenChain enforces the parameter that each validator sets. Only the commission rate can change after the validator is created.
 
-**How are block rewards distributed?**
+### **How are block rewards distributed?**
 
 Block rewards are distributed proportionally to all validators relative to their voting power. This means that even though each validator gains ZEN with each reward, all validators will maintain equal weight over time.
 
@@ -185,7 +185,7 @@ Let us take an example where we have 10 validators with equal voting power and a
 
 Then, each delegator can claim their part of the 79.2 ZEN in proportion to their stake in the validator's staking pool.
 
-**How are fees distributed?**
+### **How are fees distributed?**
 
 Fees are similarly distributed with the exception that the block proposer can get a bonus on the fees of the block they propose if they include more than the strict minimum of required precommits.
 
@@ -223,7 +223,7 @@ o    Validator's reward: 100 \* 20% + Commission = 20.8 ZEN
 
 o    Delegators' rewards: 100 \* 80% - Commission = 79.2 ZEN \(each delegator will be able to claim their portion of these rewards in proportion to their stake\)
 
-**What are the slashing conditions?**
+### **What are the slashing conditions?**
 
 If a validator misbehaves, their delegated stake will be partially slashed. There are currently two faults that can result in slashing of funds for a validator and their delegators:
 
@@ -231,13 +231,13 @@ If a validator misbehaves, their delegated stake will be partially slashed. Ther
 
 ·         **Downtime:** If a validator misses more than 95% of the last 10.000 blocks, they will get slashed by 0.01%.
 
-**Do validators need to self-delegate ZEN?**
+### **Do validators need to self-delegate ZEN?**
 
 Yes, they do need to self-delegate at least 1 Zen. Even though there is no obligation for validators to self-delegate more than 1 Zen, delegators should want their validator to have more self-delegated ZEN in their staking pool. In other words, validators should have skin in the game.
 
 In order for delegators to have some guarantee about how much skin-in-the-game their validator has, the latter can signal a minimum amount of self-delegated ZEN. If a validator's self-delegation goes below the limit that it predefined, this validator and all of its delegators will unbond.
 
-**How to prevent concentration of stake in the hands of a few top validators?**
+### **How to prevent concentration of stake in the hands of a few top validators?**
 
 For now the community is expected to behave in a smart and self-preserving way. When a mining pool in Bitcoin gets too much mining power the community usually stops contributing to that pool. The ZenChain will rely on the same effect initially. Other mechanisms are in place to smoothen this process as much as possible:
 
@@ -245,19 +245,19 @@ For now the community is expected to behave in a smart and self-preserving way. 
 
 ·         **UI warning:** Wallets can implement warnings that will be displayed to users if they want to delegate to a validator that already has a significant amount of staking power.
 
-**Technical Requirements**
+## **Technical Requirements**
 
-**What are hardware requirements?**
+### **What are hardware requirements?**
 
 Validators should expect to provision one or more data center locations with redundant power, networking, firewalls, HSMs and servers.
 
 We expect that a modest level of hardware specifications will be needed initially and that they might rise as network use increases. Participating in the testnet is the best way to learn more.
 
-**What are software requirements?**
+### **What are software requirements?**
 
 In addition to running a ZenChain node, validators should develop monitoring, alerting and management solutions.
 
-**What are bandwidth requirements?**
+### **What are bandwidth requirements?**
 
 The Zen network has the capacity for very high throughput relative to chains like Ethereum or Bitcoin.
 
@@ -265,11 +265,11 @@ We recommend that the data center nodes only connect to trusted full-nodes in th
 
 Ultimately, as the network becomes more heavily used, multigigabyte per day bandwidth is very realistic.
 
-**What does running a validator imply in terms of logistics?**
+### **What does running a validator imply in terms of logistics?**
 
 A successful validator operation will require the efforts of multiple highly skilled individuals and continuous operational attention. This will be considerably more involved than running a bitcoin miner for instance.
 
-**How to handle key management?**
+### **How to handle key management?**
 
 Validators should expect to run an HSM that supports ed25519 keys. Here are potential options:
 
@@ -283,15 +283,15 @@ Validators should expect to run an HSM that supports ed25519 keys. Here are pote
 
 The Tendermint team does not recommend one solution above the other. The community is encouraged to bolster the effort to improve HSMs and the security of key management.
 
-**What can validators expect in terms of operations?**
+### **What can validators expect in terms of operations?**
 
 Running effective operation is the key to avoiding unexpectedly unbonding or being slashed. This includes being able to respond to attacks, outages, as well as to maintain security and isolation in your data center.
 
-**What are the maintenance requirements?**
+### **What are the maintenance requirements?**
 
 Validators should expect to perform regular software updates to accommodate upgrades and bug fixes. There will inevitably be issues with the network early in its bootstrapping phase that will require substantial vigilance.
 
-**How can validators protect themselves from denial-of-service attacks?**
+### **How can validators protect themselves from denial-of-service attacks?**
 
 Denial-of-service attacks occur when an attacker sends a flood of internet traffic to an IP address to prevent the server at the IP address from connecting to the internet.
 
