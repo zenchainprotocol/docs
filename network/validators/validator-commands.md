@@ -160,12 +160,62 @@ Pool:
 zenchaind query staking params
 ```
 
-### Query staking historical-info <a id="iris-query-staking-historical-info"></a>
+### Query staking historical-info <a id="query-staking-historical-info"></a>
 
 #### Query historical info at given height <a id="query-historical-info-at-given-height"></a>
 
 ```text
 zenchaind query staking historical-info <height>
+```
+
+###  <a id="tx-staking-create-validator"></a>
+
+### Query distribution commission <a id="query-distribution-commission"></a>
+
+Query validator commission rewards from delegators to that validator.
+
+```text
+zenchaind query distribution commission [validator] [flags]
+```
+
+### Query distribution community-pool <a id="query-distribution-community-pool"></a>
+
+Query all coins in the community pool which is under Governance control.
+
+```text
+zenchaind query distribution community-pool [flags]
+```
+
+### Query distribution params <a id="query-distribution-params"></a>
+
+Query distribution params.
+
+```text
+ zenchaind query distribution params [flags]
+```
+
+### Query distribution rewards
+
+Query all rewards earned by a delegator, optionally restrict to rewards from a single validator.
+
+```text
+zenchaind query distribution rewards [delegator-addr] [validator-addr] [flags]
+```
+
+### Query distribution slashes <a id="query-distribution-slashes"></a>
+
+Query all slashes of a validator for a given block range.
+
+```text
+zenchaind query distribution slashes [validator] [start-height] [end-height] [flags]
+```
+
+### Query distribution validator-outstanding-rewards <a id="query-distribution-validator-outstanding-rewards"></a>
+
+Query distribution outstanding \(un-withdrawn\) rewards for a validator and all their delegations.
+
+```text
+iris query distribution validator-outstanding-rewards [validator] [flags]
 ```
 
 ### Create-validator <a id="tx-staking-create-validator"></a>
