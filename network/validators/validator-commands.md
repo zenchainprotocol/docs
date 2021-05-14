@@ -239,7 +239,7 @@ zenchaind tx slashing unjail --from <wallet_name> --chain-id lotus-testnet
 zenchaind tx distribution withdraw-all-rewards --from=<key-name> --chain-id lotus-testnet
 ```
 
-### Withdraw reward from avalidator
+### Withdraw reward from a validator
 
 Get the accumulated rewards from a validator. Can add the **`--commission`** flag to also withdraw the validator's commission.
 
