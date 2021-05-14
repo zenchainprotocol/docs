@@ -1,6 +1,6 @@
 # Delegator commands
 
-### Staking delegate <a id="iris-tx-staking-delegate"></a>
+### Staking delegate
 
 Delegate tokens to a validator.  
 Validator-addr is address of the validator start with **`zenvaloper.`** You can find it on [https://scan.zenchain.network/validators](https://scan.zenchain.network/validators)
@@ -15,7 +15,7 @@ zenchaind tx staking delegate [validator-addr] [amount] [flags]
 zenchaind tx staking delegate <zen...> <amount> --chain-id=lotus-testnet --from=<key-name> 
 ```
 
-### Staking unbond <a id="iris-tx-staking-unbond"></a>
+### Staking unbond
 
 Unbond tokens from a validator.
 
@@ -29,7 +29,7 @@ zenchaind tx staking unbond [validator-addr] [amount] [flags]
 zenchaind tx staking unbond <zen...> 100000000uzen --from=<key-name> --chain-id=lotus-testnet 
 ```
 
-### Staking redelegate <a id="iris-tx-staking-redelegate"></a>
+### Staking redelegate
 
 Transfer delegation from one validator to another.
 
@@ -39,7 +39,7 @@ There is no `unbonding time` during the redelegation, so you will not miss the r
 zenchaind tx staking redelegate [src-validator-addr] [dst-validator-addr] [amount] [flags]
 ```
 
-#### Redelegate some tokens to another validator <a id="redelegate-some-tokens-to-another-validator"></a>
+### Redelegate some tokens to another validator
 
 ```text
 zenchaind tx staking redelegate <zen...> <zen...> 1000000000uzen --chain-id=lotus-testnet --from=<key-name> 
