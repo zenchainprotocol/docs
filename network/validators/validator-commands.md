@@ -215,7 +215,7 @@ zenchaind query distribution slashes [validator] [start-height] [end-height] [fl
 Query distribution outstanding \(un-withdrawn\) rewards for a validator and all their delegations.
 
 ```text
-iris query distribution validator-outstanding-rewards [validator] [flags]
+zenchaind query distribution validator-outstanding-rewards [validator] [flags]
 ```
 
 ### Create-validator <a id="tx-staking-create-validator"></a>
