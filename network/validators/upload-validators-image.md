@@ -72,7 +72,7 @@ After creating new account. Access profile and **Add PGP keys,** and you will ge
  After you got 16 char key run this command:
 
 ```text
-zenchaind tx staking edit-validator --identity=<Replace your 16-char.Ex: D56DC4F99F9370D5> --from
+zenchaind tx staking edit-validator --identity=<Replace your 16-char.Ex: D56DC4F99F9370D5> --chain-id lotus-testnet --from
 ```
 
 **Explorer will update it, and fetch image each** _**15 minutes**_
