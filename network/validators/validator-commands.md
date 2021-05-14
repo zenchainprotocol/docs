@@ -230,6 +230,12 @@ zenchaind tx staking edit-validator --from=<key-name> --chain-id=lotus-testnet -
 ### Unjailed 
 
 ```text
-zenchaind tx slashing unjail --from <wallet_name>
+zenchaind tx slashing unjail --from <wallet_name> --chain-id lotus-testnet
+```
+
+### Withdraw all reward
+
+```text
+zenchaind tx distribution withdraw-all-rewards --from=<key-name> --chain-id lotus-testnet
 ```
 

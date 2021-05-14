@@ -18,8 +18,6 @@ description: All information for validators become a part of ZenChain and earn r
 
 {% page-ref page="validator-security.md" %}
 
-
-
 {% page-ref page="faqs.md" %}
 
 
