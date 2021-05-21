@@ -115,7 +115,7 @@ Open **`%UserProfile%/.zenchain/config/config.toml`**
  Find line begin with **`persistent_peers`** and replace like this. 
 
 ```text
-persistent_peers = "d087db1d451a9e1b52e5e20848c416e6be8d7f0a@45.63.22.19:26656"
+persistent_peers = "78f903fd4bd8c110ffbe05e1e21028827723bb2e@seeds.zenchain.network:26656"
 ```
 
 **Step 5:** Run your node
@@ -207,7 +207,7 @@ This command will create .zenchain folder at **`~/.zenchain`** to store node dat
 
 **Step 3:** Download genesis.json and replace file at **`~/.zenchain/config/genesis.json`**
 
-\*\*\*\*[**https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json**](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/genesis.json)\*\*\*\*
+\*\*\*\*[**https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign-dex/genesis.json**](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign-dex/genesis.json)\*\*\*\*
 
 **Step 4:** Add persistent\_peers to config.toml file.   
 Open **`~/.zenchain/config/config.toml`**
@@ -215,7 +215,7 @@ Open **`~/.zenchain/config/config.toml`**
  Find line begin with **`persistent_peers`** and replace like this. 
 
 ```text
-persistent_peers = "d087db1d451a9e1b52e5e20848c416e6be8d7f0a@45.63.22.19:26656"
+persistent_peers = "78f903fd4bd8c110ffbe05e1e21028827723bb2e@seeds.zenchain.network:26656"
 ```
 
 **Step 5:** Run your node
