@@ -144,6 +144,10 @@ If you using export to key file
 zenchaind keys import <new_name> <link_to_key_file>
 ```
 
+#### \(Optional\) Restore validator key
+
+Replace backup file**`priv_validator_key.json`** to **`.zenchain/config/`** folder
+
 #### Step 5: Start your node
 
 ```text
@@ -159,15 +163,16 @@ Your node will wait until **21 May 2021 16:00:00 GMT** to sync the network.
 
 #### Step 6: Create validator transaction
 
+{% hint style="danger" %}
+To make sure you create validator with right **validator address**. Please use the command to get current the validator address is running. 
+
+**`zenchaind tendermint show-validator`**
+{% endhint %}
+
 After you got sync with the new blockchain 
 
 1. Check your balance.
 2. Make create validator transaction again. If you don't remember, please visit this [link](../network/validators/creating-a-validator.md)
-
-{% hint style="danger" %}
-Please using new validator address when create new validator, to get the validator address using this command  
-**`zenchaind tendermint show-validator`**
-{% endhint %}
 
 **\`\`**
 

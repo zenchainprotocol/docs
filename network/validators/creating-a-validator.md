@@ -49,6 +49,14 @@ Now that you have your node up and running and you have ZEN to stake with, you m
     * **keyring-backend file**
       * This specifies the location of your node’s keyring.
 
+
+
+{% hint style="danger" %}
+To make sure you create validator with right **validator address**. Please use the command to get current the validator address is running. 
+
+**`zenchaind tendermint show-validator`**
+{% endhint %}
+
 Example: 
 
 ```text
