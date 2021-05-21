@@ -22,15 +22,9 @@ To upgrade and reset Lotus-testnet, you need backup your zenwallet and start ove
 
 + Step 4: Import your wallet
 
-+ Step 5: Create validator
++ Step 5: Start your node 
 
-{% hint style="warning" %}
-You must install success fullnode and run it. If you did not install zenchaind application, please install it. Please check this link to install your full node
-
-[https://docs.zenchain.co/network/validators/node-setup](https://docs.zenchain.co/network/validators/node-setup)
-{% endhint %}
-
-
++ Step 6: Create validator
 
 ### Steps:
 
@@ -159,7 +153,7 @@ Your node will wait until **21 May 2021 16:00:00 GMT** to sync the network.
 
 ![](../.gitbook/assets/image%20%2823%29.png)
 
-#### Step 4: Create validator transaction
+#### Step 6: Create validator transaction
 
 After you got sync with the new blockchain 
 
