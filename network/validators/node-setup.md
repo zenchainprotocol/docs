@@ -89,11 +89,13 @@ Press **`<ctr+b>`** then press **`d`**
 
 ### 1.2 With Window amd64bit
 
-**Step 1:** Download prebuild zenchaind at link [https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/build/v1.1.4/build-windows-amd64.zip](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/build/v1.1.4/build-windows-amd64.zip)
+**Step 1:** Download prebuild zenchaind at link 
+
+[https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/build/v1.1.5/build-windows-amd64.zip](https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/build/v1.1.5/build-windows-amd64.zip)
 
 Exact zip file, we will get **`zenchaind.exe`** binary 
 
-**Step 2:** Open cmd at zenchaind.exe location and init node
+**Step 2:** Open cmd, and cd to folder contain zenchaind.exe file and init node
 
 ```text
 zenchaind init <your_moniker_name> --chain-id=lotus-testnet
