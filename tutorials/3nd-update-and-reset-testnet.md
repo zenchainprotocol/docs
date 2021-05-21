@@ -160,3 +160,8 @@ After you got sync with the new blockchain
 1. Check your balance.
 2. Make create validator transaction again. If you don't remember, please visit this [link](../network/validators/creating-a-validator.md)
 
+{% hint style="danger" %}
+Please using new validator address, to get the validator address using this command  
+**`zenchaind tendermint show-validator`**
+{% endhint %}
+
