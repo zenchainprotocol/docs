@@ -52,6 +52,10 @@ Copy content and save new file with name **zenkey**
 
 `vApAKO4ARAeEba4Hjb7unUl7HAXfIGNYNZln9LkYXKrG5Uqi37HdDw3nYM0a2++K e4MbVcVqVD6dPfsr/pQ9++BVl8FwiCIvnxL2tEo= =dL63 -----END TENDERMINT PRIVATE KEY-----`
 
+#### \(OPTIONAL\) Backup your validator key \(If you want to using old validator key\) <a id="download-the-genesis-file"></a>
+
+Copy file .zenchain/config/priv\_validator\_key.json and save to safe place
+
 #### Step 2: Clear old data <a id="download-the-genesis-file"></a>
 
 {% hint style="danger" %}
