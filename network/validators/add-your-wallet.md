@@ -4,7 +4,7 @@ The keyring holds the private/public keypairs used to interact with a node. For 
 
 ### Create or import a wallet
 
-Assume you se tup successful **`zenchaind`** application
+Assume you setup successful **`zenchaind`** application
 
 To add a new key using the following command
 

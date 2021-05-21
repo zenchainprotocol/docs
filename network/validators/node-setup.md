@@ -40,7 +40,7 @@ We will follow these steps
 Step 1: Download SetupNode.sh
 
 ```bash
-wget https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign/SetupNode.sh
+wget https://raw.githubusercontent.com/zenchainprotocol/Launchpad/main/Lotus-testnet-campaign-dex/SetupNode.sh
 ```
 
 Step 2: Allow run SetupNode.sh
@@ -63,7 +63,7 @@ The terminal will begin green in the bottom, this is tmux opened.
 
 ![\(Tmux open success with green at the bottom\)](../../.gitbook/assets/image%20%2821%29.png)
 
-If your system doesn't know tmux please install it. 
+If your system doesn't know `tmux` please install it. 
 
 [https://linuxize.com/post/getting-started-with-tmux/](https://linuxize.com/post/getting-started-with-tmux/)
 
@@ -75,7 +75,7 @@ If your system doesn't know tmux please install it.
 
 **Step 6:** Zenchain will ask your moniker's name. This is your node name. 
 
-**Step 7:** After that, your node will sync with the network. If you want to become a validator you need to [add your wallet](add-your-wallet.md) \(this will store all your ZEN token\), and make [create a validator transaction](creating-a-validator.md) to the network.
+**Step 7:** After that, your node will sync with the network. If you want to run this chain in background, you can detach this tmux session. 
 
 {% hint style="info" %}
 If you want to run zenchaind in background, you can detach this tmux session by command
@@ -84,6 +84,8 @@ Press **`<ctr+b>`** then press **`d`**
 
 **More information here:** [**https://superuser.com/questions/249659/how-to-detach-a-tmux-session-that-itself-already-in-a-tmux**](https://superuser.com/questions/249659/how-to-detach-a-tmux-session-that-itself-already-in-a-tmux)\*\*\*\*
 {% endhint %}
+
+**Step 8:** If you want to become a validator you need to [add your wallet](add-your-wallet.md) \(this will store all your ZEN token\), and make [create a validator transaction](creating-a-validator.md) to the network.
 
 ### 1.2 With Window amd64bit
 

@@ -14,6 +14,7 @@
 ## Tutorials
 
 * [Reset Lotus-testnet](tutorials/reset-lotus-testnet.md)
+* [\[3nd\] Update and reset testnet](tutorials/3nd-update-and-reset-testnet.md)
 
 ## Network
 
