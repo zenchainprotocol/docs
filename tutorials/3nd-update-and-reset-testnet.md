@@ -165,3 +165,5 @@ Please using new validator address, to get the validator address using this comm
 **`zenchaind tendermint show-validator`**
 {% endhint %}
 
+**\`\`**
+
